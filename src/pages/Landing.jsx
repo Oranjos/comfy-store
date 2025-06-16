@@ -1,7 +1,12 @@
 import React from "react";
+import { Hero } from "../components";
 
 const Landing = () => {
-  return <h2 className="text-4xl">Landing</h2>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default Landing;
